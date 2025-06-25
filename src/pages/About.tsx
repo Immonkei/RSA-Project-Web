@@ -125,19 +125,7 @@ const About = () => {
         </section>
       </div>
       
-      {/* Footer */}
-      <footer className="py-8 border-t border-crypto-purple/20 bg-crypto-dark-blue/80 backdrop-blur-md">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-gray-400">© 2025 CipherVerse. Educational purposes only.</p>
-            <div className="flex space-x-8 mt-4 md:mt-0">
-              <Link to="/" className="text-sm text-gray-400 hover:text-crypto-purple">Home</Link>
-              <Link to="/about" className="text-sm text-gray-400 hover:text-crypto-purple">About</Link>
-              <Link to="/service" className="text-sm text-gray-400 hover:text-crypto-purple">Service</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      
     </div>
   );
 };
