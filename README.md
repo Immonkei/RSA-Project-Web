@@ -1,26 +1,43 @@
-# 🔐 RSA Encryption Web App
+# 🔐 CipherVerse: RSA Encryption Web App
 
-This project is a web-based RSA encryption tool that allows users to **generate RSA keys**, **encrypt messages**, and **decrypt ciphertexts** using their own private key.
+CipherVerse is a modern web-based RSA encryption tool built using **React**, **TypeScript**, and **Tailwind CSS**, offering a user-friendly interface to:
+- Generate RSA key pairs
+- Encrypt messages
+- Decrypt messages
+
+This project helps visualize how RSA encryption works while offering actual functionality.
+
+---
 
 ## 🚀 Features
 
-### 🛡️ Encrypt Messages
-- Transform plaintext into ciphertext using the RSA encryption algorithm.
-- Ensures secure transmission over untrusted channels.
-
 ### 🔑 Generate Keys
-- Create a pair of RSA public and private keys.
-- Keys are used for encryption (public) and decryption (private).
+- Generate RSA public and private key pairs for secure communication.
+
+### 🔐 Encrypt Messages
+- Convert plaintext to ciphertext using the RSA algorithm and a public key.
 
 ### 🔓 Decrypt Messages
-- Use your private key to decode encrypted messages.
-- Regain access to the original text securely.
+- Decode encrypted messages back to the original text using a private key.
 
-## 🖥️ Technologies Used
+### 🎨 UI Features
+- Animated background (`MatrixBackground`)
+- Responsive cards (`EncryptionCard`)
+- Styled using Tailwind CSS
+- Component-based architecture with clear separation
 
-- **Frontend:** HTML, CSS (Tailwind), JavaScript / React (if used)
-- **Backend (Optional):** Python (Flask / FastAPI) or Node.js
-- **Encryption Algorithm:** RSA (custom implementation or library-based)
+---
+
+## 🛠️ Tech Stack
+
+| Frontend | Styling | Build Tool | Language |
+|----------|---------|------------|----------|
+| React    | Tailwind CSS | Vite       | TypeScript |
+
+---
+
+## 📁 Project Structure
+
 
 ## 📦 Installation
 
