@@ -139,7 +139,6 @@ body {
 }
 `;
 
-
 // Component for simulating Card and CardContent if shadcn/ui is not available
 const Card = ({ children, className }) => (
   <div className={`rounded-lg ${className}`}>{children}</div>
@@ -150,11 +149,13 @@ const CardContent = ({ children, className }) => (
 );
 
 const Button = ({ children, className, onClick }) => (
-  <button className={`inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 ${className}`} onClick={onClick}>
+  <button
+    className={`inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 ${className}`}
+    onClick={onClick}
+  >
     {children}
   </button>
 );
-
 
 const AboutUS = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -168,8 +169,8 @@ const AboutUS = () => {
       });
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
   // Matrix background animation
@@ -228,12 +229,11 @@ const AboutUS = () => {
         drops[x] = 1;
       }
     };
-    window.addEventListener('resize', handleResize);
-
+    window.addEventListener("resize", handleResize);
 
     return () => {
       clearInterval(interval);
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -304,18 +304,23 @@ const AboutUS = () => {
 
             {/* Main hero content */}
             <div className="text-center relative z-10 max-w-5xl mx-auto">
-
               {/* Animated badges */}
               <div className="flex justify-center gap-4 mb-8">
                 <div className="px-4 py-2 bg-crypto-purple/20 border border-crypto-purple/40 rounded-full text-sm text-crypto-light-purple animate-pulse">
                   <Sparkles className="w-4 h-4 inline mr-2" />
                   Discrete Mathematics
                 </div>
-                <div className="px-4 py-2 bg-crypto-purple/20 border border-crypto-purple/40 rounded-full text-sm text-crypto-light-purple animate-pulse" style={{ animationDelay: '0.5s' }}>
+                <div
+                  className="px-4 py-2 bg-crypto-purple/20 border border-crypto-purple/40 rounded-full text-sm text-crypto-light-purple animate-pulse"
+                  style={{ animationDelay: "0.5s" }}
+                >
                   <Code className="w-4 h-4 inline mr-2" />
                   RSA Encryption
                 </div>
-                <div className="px-4 py-2 bg-crypto-purple/20 border border-crypto-purple/40 rounded-full text-sm text-crypto-light-purple animate-pulse" style={{ animationDelay: '1s' }}>
+                <div
+                  className="px-4 py-2 bg-crypto-purple/20 border border-crypto-purple/40 rounded-full text-sm text-crypto-light-purple animate-pulse"
+                  style={{ animationDelay: "1s" }}
+                >
                   <Users className="w-4 h-4 inline mr-2" />
                   Team Project
                 </div>
@@ -340,6 +345,11 @@ const AboutUS = () => {
                         alt="RUPP Logo"
                         className="w-24 h-24 rounded-full object-cover border-2 border-white/20"
                       />
+                      {/* <img
+                        src="https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-6/396717787_804857584773344_3543346762002089097_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=F8A4fQzmXycQ7kNvwEsLt37&_nc_oc=AdlyZW5byTsKH-j6ezkHBxtxShr7ax9ZmLhGWq4SYqwVLHVT17N3_shXtx8Sz4CgXm3wgIEVlgTD2PKFU2b8lMLp&_nc_zt=23&_nc_ht=scontent-sin2-1.xx&_nc_gid=WCfqZv3qmJyhr8vEzq2axg&oh=00_AfPT-MznX1J8uwZB_0zYD8PccNLPiASIp-ICGhqOAgff5Q&oe=686A99CD"
+                        alt="RUPP Logo"
+                        className="w-24 h-24 rounded-full object-cover border-2 border-white/20"
+                      /> */}
                     </div>
                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-crypto-purple/80 rounded-full text-xs text-white font-medium">
                       RUPP
@@ -354,15 +364,18 @@ const AboutUS = () => {
                   </div>
 
                   {/* Department Logo with enhanced styling */}
+                  {/* Department Logo with same size as RUPP */}
                   <div className="group relative">
-                    <div className="absolute inset-0 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-xl blur-xl opacity-50 group-hover:opacity-80 transition-all duration-500 scale-110"></div>
-                    <div className="relative w-24 h-24 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-xl flex items-center justify-center transform transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12">
+                    <div className="absolute inset-0 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-full blur-xl opacity-50 group-hover:opacity-80 transition-all duration-500 scale-110"></div>
+
+                    <div className="relative w-28 h-28 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-full flex items-center justify-center transform transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12">
                       <img
-                        src="https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/396717787_804857584773344_3543346762002089097_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEE5DUkaE__K3m43b9uYyr9aAXk4Hk-pnNoBeTgeT6mc3vQ5YGEMCFvO_cD5dYsdVEXK-fUeAipIQJXnNKtWQo6&_nc_ohc=FmhBZsdAOW0Q7kNvwHzPJ0q&_nc_oc=AdlxBOdrLTSduFCVxKm9P2q3kvkp4bvVqcPEY0QP6eqrgTNY6Wup_xsaCxhyHWH2BjE&_nc_zt=23&_nc_ht=scontent.fpnh11-1.fna&_nc_gid=HOuMrUm1J1W2Xjo7xBtGPg&oh=00_AfPdYeslfWwF3Vy5sw2dvtsdDf9gzu9eN3INB8SIBFwezw&oe=68615F4D"
+                        src="https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-6/396717787_804857584773344_3543346762002089097_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=F8A4fQzmXycQ7kNvwEsLt37&_nc_oc=AdlyZW5byTsKH-j6ezkHBxtxShr7ax9ZmLhGWq4SYqwVLHVT17N3_shXtx8Sz4CgXm3wgIEVlgTD2PKFU2b8lMLp&_nc_zt=23&_nc_ht=scontent-sin2-1.xx&_nc_gid=WCfqZv3qmJyhr8vEzq2axg&oh=00_AfPT-MznX1J8uwZB_0zYD8PccNLPiASIp-ICGhqOAgff5Q&oe=686A99CD"
                         alt="ITE Logo"
-                        className="w-20 h-20 rounded-lg object-cover border-2 border-white/20"
+                        className="w-24 h-24 rounded-full object-cover border-2 border-white/20"
                       />
                     </div>
+
                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-crypto-light-purple/80 rounded-full text-xs text-white font-medium">
                       ITE
                     </div>
@@ -373,7 +386,10 @@ const AboutUS = () => {
               {/* Enhanced title with glitch effect */}
               <div className="relative mb-8">
                 <h1 className="text-6xl md:text-8xl font-black mb-4 relative">
-                  <span className="bg-gradient-to-r from-crypto-purple via-crypto-light-purple to-white text-transparent bg-clip-text animate-fade-in glitch" data-text="RSA PROJECT">
+                  <span
+                    className="bg-gradient-to-r from-crypto-purple via-crypto-light-purple to-white text-transparent bg-clip-text animate-fade-in glitch"
+                    data-text="RSA PROJECT"
+                  >
                     RSA PROJECT
                   </span>
                 </h1>
@@ -384,11 +400,24 @@ const AboutUS = () => {
 
               {/* Subtitle with typewriter effect - Adjusted for better responsiveness */}
               <div className="mb-8">
-                <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed animate-fade-in typewriter" style={{ animationDelay: '0.5s' }}>
-                  A <span className="text-crypto-light-purple font-semibold">Discrete Mathematics</span> project by{' '}
-                  <span className="text-crypto-purple font-semibold">Information Technology Engineering</span> students
+                <p
+                  className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed animate-fade-in typewriter"
+                  style={{ animationDelay: "0.5s" }}
+                >
+                  A{" "}
+                  <span className="text-crypto-light-purple font-semibold">
+                    Discrete Mathematics
+                  </span>{" "}
+                  project by{" "}
+                  <span className="text-crypto-purple font-semibold">
+                    Information Technology Engineering
+                  </span>{" "}
+                  students
                 </p>
-                <p className="text-lg text-gray-400 mt-4 animate-fade-in" style={{ animationDelay: '0.8s' }}>
+                <p
+                  className="text-lg text-gray-400 mt-4 animate-fade-in"
+                  style={{ animationDelay: "0.8s" }}
+                >
                   Royal University of Phnom Penh • Academic Year 2024-2028
                 </p>
               </div>
@@ -396,19 +425,30 @@ const AboutUS = () => {
               {/* Stats cards */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-3xl mx-auto">
                 <div className="bg-crypto-purple/10 backdrop-blur-md border border-crypto-purple/30 rounded-xl p-6 transform hover:scale-105 transition-all duration-300 initially-hidden opacity-0">
-                  <div className="text-3xl font-bold text-crypto-light-purple mb-2">7</div>
+                  <div className="text-3xl font-bold text-crypto-light-purple mb-2">
+                    7
+                  </div>
                   <div className="text-sm text-gray-300">Team Members</div>
                 </div>
-                <div className="bg-crypto-purple/10 backdrop-blur-md border border-crypto-purple/30 rounded-xl p-6 transform hover:scale-105 transition-all duration-300 initially-hidden opacity-0" style={{ animationDelay: '0.2s' }}>
-                  <div className="text-3xl font-bold text-crypto-light-purple mb-2">RSA</div>
+                <div
+                  className="bg-crypto-purple/10 backdrop-blur-md border border-crypto-purple/30 rounded-xl p-6 transform hover:scale-105 transition-all duration-300 initially-hidden opacity-0"
+                  style={{ animationDelay: "0.2s" }}
+                >
+                  <div className="text-3xl font-bold text-crypto-light-purple mb-2">
+                    RSA
+                  </div>
                   <div className="text-sm text-gray-300">Encryption Focus</div>
                 </div>
-                <div className="bg-crypto-purple/10 backdrop-blur-md border border-crypto-purple/30 rounded-xl p-6 transform hover:scale-105 transition-all duration-300 initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
-                  <div className="text-3xl font-bold text-crypto-light-purple mb-2">2025</div>
+                <div
+                  className="bg-crypto-purple/10 backdrop-blur-md border border-crypto-purple/30 rounded-xl p-6 transform hover:scale-105 transition-all duration-300 initially-hidden opacity-0"
+                  style={{ animationDelay: "0.4s" }}
+                >
+                  <div className="text-3xl font-bold text-crypto-light-purple mb-2">
+                    2025
+                  </div>
                   <div className="text-sm text-gray-300">Project Year</div>
                 </div>
               </div>
-              
             </div>
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
               <div className="w-6 h-10 border-2 border-crypto-purple/50 rounded-full flex justify-center">
@@ -427,18 +467,19 @@ const AboutUS = () => {
                   About This Project
                 </h2>
                 <p className="mb-4 text-gray-300">
-                  This RSA encryption educational tool is developed as part of our
-                  Discrete Mathematics coursework at the Royal University of Phnom
-                  Penh. Our project aims to demonstrate the practical application
-                  of mathematical concepts learned in class, specifically focusing
-                  on number theory, modular arithmetic, and cryptographic
-                  algorithms.
+                  This RSA encryption educational tool is developed as part of
+                  our Discrete Mathematics coursework at the Royal University of
+                  Phnom Penh. Our project aims to demonstrate the practical
+                  application of mathematical concepts learned in class,
+                  specifically focusing on number theory, modular arithmetic,
+                  and cryptographic algorithms.
                 </p>
                 <p className="text-gray-300">
                   Through this interactive web application, we showcase how RSA
                   encryption works using the mathematical principles of prime
-                  numbers, Euler's totient function, and modular exponentiation -
-                  all key topics covered in our Discrete Mathematics curriculum.
+                  numbers, Euler's totient function, and modular exponentiation
+                  - all key topics covered in our Discrete Mathematics
+                  curriculum.
                 </p>
               </CardContent>
             </Card>
@@ -510,8 +551,8 @@ const AboutUS = () => {
                           Discrete Mathematics Professor
                         </p>
                         <p className="text-sm text-gray-300 mb-4">
-                          Royal University of Phnom Penh • Information Technology
-                          Engineering Department
+                          Royal University of Phnom Penh • Information
+                          Technology Engineering Department
                         </p>
 
                         <p className="text-gray-300 mb-6">
@@ -555,7 +596,9 @@ const AboutUS = () => {
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
                       Ly Soklang
                     </h3>
-                    <p className="text-sm text-crypto-purple mb-1">Team Leader</p>
+                    <p className="text-sm text-crypto-purple mb-1">
+                      Team Leader
+                    </p>
 
                     <div className="flex justify-center gap-2">
                       <a
@@ -615,7 +658,9 @@ const AboutUS = () => {
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
                       Ly Hour
                     </h3>
-                    <p className="text-sm text-crypto-purple mb-1">Researcher</p>
+                    <p className="text-sm text-crypto-purple mb-1">
+                      Researcher
+                    </p>
                     <div className="flex justify-center gap-2">
                       <a
                         href="https://t.me/student3"
@@ -702,9 +747,11 @@ const AboutUS = () => {
                       <span className="text-xl font-bold text-white">S6</span>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
-                    Ly keasing
+                      Ly keasing
                     </h3>
-                    <p className="text-sm text-crypto-purple mb-1">Documenter</p>
+                    <p className="text-sm text-crypto-purple mb-1">
+                      Documenter
+                    </p>
 
                     <div className="flex justify-center gap-2">
                       <a
@@ -759,8 +806,6 @@ const AboutUS = () => {
               </CardContent>
             </Card>
           </section>
-
-          
         </div>
       </div>
     </>
@@ -768,4 +813,3 @@ const AboutUS = () => {
 };
 
 export default AboutUS;
-
