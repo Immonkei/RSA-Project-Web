@@ -537,10 +537,11 @@ const AboutUS = () => {
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300">
                     <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
                       {/* Instructor Photo Placeholder */}
-                      <div className="w-32 h-32 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full flex items-center justify-center flex-shrink-0">
-                        <span className="text-3xl font-bold text-white">
+                      <div className="w-32 h-32 rounded-full overflow-hidden bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full flex items-center justify-center flex-shrink-0">
+                        {/* <span className="text-3xl font-bold text-white">
                           Prof
-                        </span>
+                        </span> */}
+                        <img src="dist/assets/image/prof.lim seyha.jpg" alt="" />
                       </div>
 
                       <div className="flex-1 text-center md:text-left">
@@ -580,7 +581,7 @@ const AboutUS = () => {
             <Card className="bg-muted/10 border-crypto-purple/30 backdrop-blur-md overflow-hidden mb-8 initially-hidden opacity-0">
               <CardContent className="p-8">
                 <h2 className="text-2xl font-semibold mb-6 text-crypto-light-purple text-center">
-                  Our Project Team
+                  Our Members
                 </h2>
                 <p className="text-center text-gray-400 mb-8">
                   Information Technology Engineering Students - Discrete
@@ -591,13 +592,16 @@ const AboutUS = () => {
                   {/* Team Member 1 */}
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S1</span>
+                      {/* <span className="text-xl font-bold text-white">S1</span> */}
+                      <div className="w-25 h-25 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/phanit.jpg" alt="" />
+                      </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
-                      Ly Soklang
+                      Min Phanith
                     </h3>
                     <p className="text-sm text-crypto-purple mb-1">
-                      Team Leader
+                      Team Leader & Developer
                     </p>
 
                     <div className="flex justify-center gap-2">
@@ -623,12 +627,17 @@ const AboutUS = () => {
                   {/* Team Member 2 */}
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S2</span>
+                      {/* <span className="text-xl font-bold text-white">S2</span> */}
+                      <div className="w-22 h-22 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/lang.jpg" alt="" />
+                      </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
-                      Min Phanith
+                      Ly Soklang
                     </h3>
-                    <p className="text-sm text-crypto-purple mb-1">Developer</p>
+                    <p className="text-sm text-crypto-purple mb-1">
+                      Researcher & Developer
+                    </p>
 
                     <div className="flex justify-center gap-2">
                       <a
@@ -653,13 +662,16 @@ const AboutUS = () => {
                   {/* Team Member 3 */}
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S3</span>
+                      {/* <span className="text-xl font-bold text-white">S3</span> */}
+                      <div className="w-20 h-20 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/hour.jpg" alt="" />
+                      </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
                       Ly Hour
                     </h3>
                     <p className="text-sm text-crypto-purple mb-1">
-                      Researcher
+                      Researcher & Developer
                     </p>
                     <div className="flex justify-center gap-2">
                       <a
@@ -684,16 +696,21 @@ const AboutUS = () => {
                   {/* Team Member 4 */}
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S4</span>
+                      {/* <span className="text-xl font-bold text-white">S4</span> */}
+                      <div className="w-25 h-25 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/long.jpg" alt="" />
+                      </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
-                      Rath Chhnoeum
+                      Borey Penglong
                     </h3>
-                    <p className="text-sm text-crypto-purple mb-1">Designer</p>
+                    <p className="text-sm text-crypto-purple mb-1">
+                      Support & Deployer
+                    </p>
 
                     <div className="flex justify-center gap-2">
                       <a
-                        href="https://t.me/student4"
+                        href="https://t.me/student7"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
@@ -701,7 +718,7 @@ const AboutUS = () => {
                         <MessageCircle className="w-4 h-4" />
                       </a>
                       <a
-                        href="https://facebook.com/student4"
+                        href="https://facebook.com/student7"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
@@ -710,11 +727,12 @@ const AboutUS = () => {
                       </a>
                     </div>
                   </div>
-
-                  {/* Team Member 5 */}
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S5</span>
+                      {/* <span className="text-xl font-bold text-white">S5</span> */}
+                      <div className="w-20 h-20 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/nha.jpg" alt="" />
+                      </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
                       Yom Mongkulphanha
@@ -741,10 +759,48 @@ const AboutUS = () => {
                     </div>
                   </div>
 
-                  {/* Team Member 6 */}
+                  {/* Team Member 5 */}
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S6</span>
+                      {/* <span className="text-xl font-bold text-white">S6</span> */}
+                      <div className="w-25 h-25 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/chhnoeum.jpg" alt="" />
+                      </div>
+                    </div>
+                    <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
+                      Rath Chhnoeum
+                    </h3>
+                    <p className="text-sm text-crypto-purple mb-1">Designer</p>
+
+                    <div className="flex justify-center gap-2">
+                      <a
+                        href="https://t.me/student4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
+                      >
+                        <MessageCircle className="w-4 h-4" />
+                      </a>
+                      <a
+                        href="https://facebook.com/student4"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
+                      >
+                        <Facebook className="w-4 h-4" />
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Team Member 6 */}
+
+                  {/* Team Member 7 */}
+                  <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
+                    <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
+                      {/* <span className="text-xl font-bold text-white">S7</span> */}
+                      <div className="w-18 h-20 rounded-full overflow-hidden">
+                        <img src="dist/assets/image/sing.jpg" alt="" />
+                      </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
                       Ly keasing
@@ -764,36 +820,6 @@ const AboutUS = () => {
                       </a>
                       <a
                         href="https://facebook.com/student6"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
-                      >
-                        <Facebook className="w-4 h-4" />
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Team Member 7 */}
-                  <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
-                    <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-xl font-bold text-white">S7</span>
-                    </div>
-                    <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
-                      Borey Penglong
-                    </h3>
-                    <p className="text-sm text-crypto-purple mb-1">Support</p>
-
-                    <div className="flex justify-center gap-2">
-                      <a
-                        href="https://t.me/student7"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
-                      >
-                        <MessageCircle className="w-4 h-4" />
-                      </a>
-                      <a
-                        href="https://facebook.com/student7"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-2 bg-crypto-purple/20 hover:bg-crypto-purple/40 rounded-lg transition-colors"
