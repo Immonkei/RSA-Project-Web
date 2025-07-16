@@ -370,7 +370,7 @@ const AboutUS = () => {
 
                     <div className="relative w-28 h-28 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-full flex items-center justify-center transform transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12">
                       <img
-                        src="https://scontent-sin2-1.xx.fbcdn.net/v/t39.30808-6/396717787_804857584773344_3543346762002089097_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=F8A4fQzmXycQ7kNvwEsLt37&_nc_oc=AdlyZW5byTsKH-j6ezkHBxtxShr7ax9ZmLhGWq4SYqwVLHVT17N3_shXtx8Sz4CgXm3wgIEVlgTD2PKFU2b8lMLp&_nc_zt=23&_nc_ht=scontent-sin2-1.xx&_nc_gid=WCfqZv3qmJyhr8vEzq2axg&oh=00_AfPT-MznX1J8uwZB_0zYD8PccNLPiASIp-ICGhqOAgff5Q&oe=686A99CD"
+                        src="/dist/assets/image/396717787_804857584773344_3543346762002089097_n.jpg"
                         alt="ITE Logo"
                         className="w-24 h-24 rounded-full object-cover border-2 border-white/20"
                       />
