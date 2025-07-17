@@ -9,14 +9,14 @@ This project helps visualize how RSA encryption works while offering actual func
 
 ---
 # 👨🏻‍💻 Dev BY
--V0
--Min Phanith
--Ly Soklang
--Ly Hour
--Borey Penglong
--Yom Mongkolphanha
--Rath chhnoeum
--Ly Keasing
+- V0
+- Min Phanith
+- Ly Soklang
+- Ly Hour
+- Borey Penglong
+- Yom Mongkolphanha
+- Rath chhnoeum
+- Ly Keasing
 ---
 ## 🚀 Features
 
