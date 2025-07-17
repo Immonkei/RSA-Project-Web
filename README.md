@@ -8,7 +8,7 @@ CipherVerse is a modern web-based RSA encryption tool built using **React**, **T
 This project helps visualize how RSA encryption works while offering actual functionality.
 
 ---
-# 👨🏻‍💻</> Dev by
+# 👨🏻‍💻</> 
 - V0
 - Min Phanith
 - Ly Soklang
