@@ -369,7 +369,7 @@ const AboutUS = () => {
 
                     <div className="relative w-28 h-28 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-full flex items-center justify-center transform transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12">
                       <img
-                        src="public/ITE.jpg"
+                        src="/ITE.jpg"
                         alt="ITE Logo"
                         className="w-24 h-24 rounded-full object-cover border-2 border-white/20"
                       />
@@ -605,7 +605,7 @@ const AboutUS = () => {
                       Min Phanith
                     </h3>
                     <p className="text-sm text-crypto-purple mb-1">
-                      Team Leader & Developer
+                      ....................
                     </p>
 
                     <div className="flex justify-center gap-2">

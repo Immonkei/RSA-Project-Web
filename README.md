@@ -1,4 +1,4 @@
-# 🔐 CipherVerse: RSA Encryption Web App
+# 🔐 RSA Encryption Web App
 
 CipherVerse is a modern web-based RSA encryption tool built using **React**, **TypeScript**, and **Tailwind CSS**, offering a user-friendly interface to:
 - Generate RSA key pairs
@@ -8,7 +8,16 @@ CipherVerse is a modern web-based RSA encryption tool built using **React**, **T
 This project helps visualize how RSA encryption works while offering actual functionality.
 
 ---
-
+# 👨🏻‍💻</> 
+- V0
+- Min Phanith
+- Ly Soklang
+- Ly Hour
+- Borey Penglong
+- Yom Mongkolphanha
+- Rath chhnoeum
+- Ly Keasing
+---
 ## 🚀 Features
 
 ### 🔑 Generate Keys
