@@ -325,7 +325,6 @@ const AboutUS = () => {
                   Team Project
                 </div>
               </div>
-
               {/* Logo section with enhanced design */}
               <div className="relative mb-12">
                 {/* Decorative rings */}
