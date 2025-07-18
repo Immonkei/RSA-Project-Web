@@ -366,11 +366,11 @@ const AboutUS = () => {
                   {/* Department Logo with enhanced styling */}
                   {/* Department Logo with same size as RUPP */}
                   <div className="group relative">
-                    <div className="absolute inset-0 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-full blur-xl opacity-50 group-hover:opacity-80 transition-all duration-500 scale-110"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full blur-xl opacity-50 group-hover:opacity-80 transition-all duration-500 scale-110"></div>
 
                     <div className="relative w-28 h-28 bg-gradient-to-br from-crypto-light-purple to-crypto-purple rounded-full flex items-center justify-center transform transition-all duration-500 group-hover:scale-110 group-hover:-rotate-12">
                       <img
-                        src="/dist/assets/image/396717787_804857584773344_3543346762002089097_n.jpg"
+                        src="public/ITE.jpg"
                         alt="ITE Logo"
                         className="w-24 h-24 rounded-full object-cover border-2 border-white/20"
                       />
@@ -385,40 +385,42 @@ const AboutUS = () => {
 
               {/* Enhanced title with glitch effect */}
               <div className="relative mb-8">
-                <h1 className="text-6xl md:text-8xl font-black mb-4 relative">
+                <h1 className="text-6xl md:text-7xl font-black mb-4 relative">
                   <span
                     className="bg-gradient-to-r from-crypto-purple via-crypto-light-purple to-white text-transparent bg-clip-text animate-fade-in glitch"
-                    data-text="RSA PROJECT"
+                    data-text="Rivest-Shamir-Adleman"
                   >
-                    RSA PROJECT
+                    Rivest-Shamir-Adleman
                   </span>
                 </h1>
                 <div className="absolute inset-0 text-6xl md:text-8xl font-black bg-gradient-to-r from-crypto-purple/30 via-crypto-light-purple/30 to-white/30 text-transparent bg-clip-text animate-pulse blur-sm">
-                  RSA PROJECT
+                  {/* Rivest-Shamir-Adleman */}
                 </div>
               </div>
 
               {/* Subtitle with typewriter effect - Adjusted for better responsiveness */}
               <div className="mb-8">
                 <p
-                  className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed animate-fade-in typewriter"
+                  className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed animate-fade-in"
                   style={{ animationDelay: "0.5s" }}
                 >
-                  A{" "}
-                  <span className="text-crypto-light-purple font-semibold">
-                    Discrete Mathematics
-                  </span>{" "}
-                  project by{" "}
-                  <span className="text-crypto-purple font-semibold">
-                    Information Technology Engineering
-                  </span>{" "}
-                  students
+                  <span className="typewriter">
+                    A{" "}
+                    <span className="text-crypto-light-purple font-semibold">
+                      Discrete Mathematics
+                    </span>{" "}
+                    project by{" "}
+                    <span className="text-crypto-purple font-semibold">
+                      Information Technology Engineering
+                    </span>{" "}
+                    students
+                  </span>
                 </p>
                 <p
                   className="text-lg text-gray-400 mt-4 animate-fade-in"
                   style={{ animationDelay: "0.8s" }}
                 >
-                  Royal University of Phnom Penh • Academic Year 2024-2028
+                  Royal University of Phnom Penh • Academic Year 2024–2028
                 </p>
               </div>
 
@@ -541,7 +543,10 @@ const AboutUS = () => {
                         {/* <span className="text-3xl font-bold text-white">
                           Prof
                         </span> */}
-                        <img src="dist/assets/image/prof.lim seyha.jpg" alt="" />
+                        <img
+                          src="dist/assets/image/prof.lim seyha.jpg"
+                          alt=""
+                        />
                       </div>
 
                       <div className="flex-1 text-center md:text-left">

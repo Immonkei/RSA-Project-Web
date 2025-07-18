@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -66,7 +65,7 @@
     z-index: -1;
     overflow: hidden;
   }
-  
+
   .matrix-column {
     position: absolute;
     color: rgba(155, 135, 245, 0.15);
@@ -84,4 +83,40 @@
 .invisible-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    border-color: #aaa;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #aaa;
+  animation:
+    typewriter 4s steps(60, end) infinite,
+    blink 0.7s step-end infinite;
 }
