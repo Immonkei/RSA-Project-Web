@@ -606,7 +606,7 @@ const AboutUS = () => {
                       Min Phanith
                     </h3>
                     <p className="text-sm text-crypto-purple mb-1">
-                      Team Leader & Developer
+                      ....................
                     </p>
 
                     <div className="flex justify-center gap-2">
