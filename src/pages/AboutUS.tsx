@@ -543,7 +543,7 @@ const AboutUS = () => {
                           Prof
                         </span> */}
                         <img
-                          src="dist/assets/image/prof.lim seyha.jpg"
+                          src="public/prof.jpg"
                           alt=""
                         />
                       </div>
@@ -598,7 +598,7 @@ const AboutUS = () => {
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S1</span> */}
                       <div className="w-25 h-25 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/phanit.jpg" alt="" />
+                        <img src="public/nith.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
@@ -632,8 +632,8 @@ const AboutUS = () => {
                   <div className="bg-gradient-to-br from-crypto-purple/20 to-crypto-light-purple/20 border border-crypto-purple/40 rounded-xl p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S2</span> */}
-                      <div className="w-22 h-22 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/lang.jpg" alt="" />
+                      <div className="w-20 h-20 rounded-full overflow-hidden">
+                        <img src="public/lang.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
@@ -668,7 +668,7 @@ const AboutUS = () => {
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S3</span> */}
                       <div className="w-20 h-20 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/hour.jpg" alt="" />
+                        <img src="public/hour.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
@@ -702,7 +702,7 @@ const AboutUS = () => {
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S4</span> */}
                       <div className="w-25 h-25 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/long.jpg" alt="" />
+                        <img src="long.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
@@ -735,7 +735,7 @@ const AboutUS = () => {
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S5</span> */}
                       <div className="w-20 h-20 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/nha.jpg" alt="" />
+                        <img src="public/nha.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
@@ -768,7 +768,7 @@ const AboutUS = () => {
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S6</span> */}
                       <div className="w-25 h-25 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/chhnoeum.jpg" alt="" />
+                        <img src="public/chh.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
@@ -803,7 +803,7 @@ const AboutUS = () => {
                     <div className="w-20 h-20 bg-gradient-to-br from-crypto-purple to-crypto-light-purple rounded-full mx-auto mb-4 flex items-center justify-center">
                       {/* <span className="text-xl font-bold text-white">S7</span> */}
                       <div className="w-18 h-20 rounded-full overflow-hidden">
-                        <img src="dist/assets/image/sing.jpg" alt="" />
+                        <img src="public/sing.jpg" alt="" />
                       </div>
                     </div>
                     <h3 className="font-semibold text-lg mb-2 text-crypto-light-purple">
